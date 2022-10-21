@@ -1,6 +1,7 @@
 package com.example.taller10;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -40,5 +41,10 @@ public class MainActivity extends AppCompatActivity {
         Uri linkTw = Uri.parse(urlTw);
         Intent It= new Intent(Intent.ACTION_VIEW, linkTw);
         startActivity(It);
+    }
+
+    public void Inicio(View view){
+        Intent InicioC = new Intent(MainActivity.this, MainActivity2.class);
+        startActivity(InicioC);
     }
 }

@@ -72,6 +72,7 @@
         android:layout_marginTop="36dp"
         android:backgroundTint="#0D47A1"
         android:text="Enviar"
+        android:onClick="Inicio"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
